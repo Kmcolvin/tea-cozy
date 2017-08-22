@@ -1,9 +1,12 @@
-header{
-  display: flex;
+html{
   font-family: helvetica;
   color: seashell;
   background-color: black;
   opacity: .9;
+}
+
+header{
+  display: flex;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
   height: 69px;
@@ -18,5 +21,28 @@ header img{
 
 header span{
   text-decoration: underline;
-  margin-right: 10px; 
+  margin-right: 10px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.banner{
+  display: block;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
 }

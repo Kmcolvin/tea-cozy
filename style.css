@@ -1,0 +1,22 @@
+header{
+  display: flex;
+  font-family: helvetica;
+  color: seashell;
+  background-color: black;
+  opacity: .9;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+header img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+header span{
+  text-decoration: underline;
+  margin-right: 10px; 
+}

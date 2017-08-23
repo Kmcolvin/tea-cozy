@@ -8,10 +8,12 @@ html{
 header{
   display: flex;
   border-bottom: 1px solid seashell;
-  justify-content: space-between;
   height: 69px;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
-  background-attachment: fixed;
+  position: fixed;
+  background-color: black;
 }
 
 header img{
@@ -45,4 +47,18 @@ header span{
   background-color: black;
   width: 1200px;
   text-align: center;
+}
+
+.tea{
+  display: flex;
+  flex-flow: wrap;
+  width: 1000px;
+  text-align: center;
+  justify-content: center;
+}
+
+.tea img{
+  height: 200px;
+  width: 300px;
+  margin: 10px
 }

@@ -62,3 +62,30 @@ header span{
   width: 300px;
   margin: 10px
 }
+
+.location{
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  text-align: center;
+  margin-top: 50px;
+}
+
+.holder{
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  text-align: center;
+
+}
+
+.holder div{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  align-content: space-around;
+  margin: 15px 20px;
+}

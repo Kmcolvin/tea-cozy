@@ -23,7 +23,12 @@ header img{
 
 header span{
   text-decoration: underline;
-  margin-right: 10px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+header a{
+  color: white;
 }
 
 .content{
@@ -47,6 +52,7 @@ header span{
   background-color: black;
   width: 1200px;
   text-align: center;
+  margin-top: 50px;
 }
 
 .tea{
@@ -57,13 +63,21 @@ header span{
   justify-content: center;
 }
 
+.tea h4{
+  margin: 10px;
+  padding: 0;
+}
+
 .tea img{
   height: 200px;
   width: 300px;
-  margin: 10px
+  margin: 10px 10px 0 10px;
 }
 
 .location{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   height: 500px;
   width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
@@ -76,6 +90,7 @@ header span{
   justify-content: center;
   align-content: space-around;
   text-align: center;
+  margin-bottom: 0;
 
 }
 
@@ -86,6 +101,19 @@ header span{
   width: 300px;
   background-color: black;
   opacity: 1;
-  align-content: space-around;
   margin: 15px 20px;
+}
+
+.contact{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  height: 200px;
+  text-align: center;
+  margin-top: 0;
+  padding: 0;
+}
+
+.copyright{
+  margin-left: 20px;
 }
